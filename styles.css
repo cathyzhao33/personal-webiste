@@ -43,8 +43,7 @@ h1 {
 /* ------Styling the round image on the home page ------ */
 #mainImage {
   max-height: 250px;
-  /*margin-bottom: 2em;
-  border: 3px solid white;*/
+  height: 200px;
 }
 
 /* ------Styling the portfolio images ------ */
@@ -69,6 +68,10 @@ li a {
   text-decoration: none;
   text-align: center;
   padding: 1em;
+  font-size: 1.3em;
+}
+
+li b {
   font-size: 1.3em;
 }
 
