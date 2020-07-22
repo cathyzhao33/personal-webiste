@@ -5,7 +5,6 @@ body {
 
 h1 {
   color: #F1DDF1;
-  color: #E9DFEA;
   color: white;
 }
 
@@ -35,7 +34,7 @@ h1 {
 }
 
 /* ------Styling the round image on the home page ------ */
-#main-img  {
+#mainImage {
   border-radius: 50%;
   max-height: 250px;
   margin-bottom: 2em;
@@ -43,14 +42,19 @@ h1 {
 }
 
 /* ------Styling the portfolio images ------ */
-.port-img {
-  border-radius: 10%;
+.portImage {
   max-height: 20em;
 }
 
-/*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+/*Style the Nav Bar by selecting the u1, li, and li a elements*/
+.navBar {
+  list-style-type: none;
+  background-color: #E9DFEA;
+  
+}
 
-
-
+li {
+  display: inline;
+}
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
