@@ -9,7 +9,7 @@ h1 {
 }
 
 .header {
-  background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);
+  /*background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);*/
   position: relative;
   text-align: center;
 }
@@ -42,9 +42,11 @@ h1 {
 }
 
 /* ------Styling the round image on the home page ------ */
-/*#mainImage {
-  height: 200px;
-}*/
+#mainImage {
+  height: 500px;
+  width: 1000px;
+  padding-top: 2em;
+}
 
 /* ------Styling the portfolio images ------ */
 .portImage {
