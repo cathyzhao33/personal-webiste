@@ -62,8 +62,25 @@ li {
 li a {
   text-decoration: none;
   text-align: center;
-  
+  padding: 1em;
   font-size: 1.3em;
 }
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;*/ 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.nordic {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.photography {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  flex-direction: row;
+}
