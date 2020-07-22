@@ -47,14 +47,23 @@ h1 {
 }
 
 /*Style the Nav Bar by selecting the u1, li, and li a elements*/
-.navBar {
+ul {
   list-style-type: none;
   background-color: #E9DFEA;
-  
+  padding: 1em;
+  overflow: hidden;
 }
 
 li {
   display: inline;
+  border-right: 2px solid white;
+}
+
+li a {
+  text-decoration: none;
+  text-align: center;
+  
+  font-size: 1.3em;
 }
 
 /*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
