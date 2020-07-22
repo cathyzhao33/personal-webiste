@@ -34,7 +34,7 @@ p {
 
 h1 {
   font-size: 2.2em;
-  font-weight: 700;
+  font-weight: 100;
   color: white;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -42,10 +42,9 @@ h1 {
 
 /* ------Styling the round image on the home page ------ */
 #mainImage {
-  border-radius: 50%;
   max-height: 250px;
-  margin-bottom: 2em;
-  border: 3px solid white;
+  /*margin-bottom: 2em;
+  border: 3px solid white;*/
 }
 
 /* ------Styling the portfolio images ------ */
