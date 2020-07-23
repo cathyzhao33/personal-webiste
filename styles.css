@@ -62,7 +62,7 @@ ul.nav-bar {
   overflow: hidden;
 }
 
-li {
+li.nav-bar {
   display: inline;
   border-right: 2px solid white;
 }
@@ -80,8 +80,7 @@ ul.contact-links {
   font-color: white;
 }
 
-li {
-  display: inline;
+li.contact-links {
   border-right: 2px solid white;
 }
 
