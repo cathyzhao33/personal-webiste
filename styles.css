@@ -54,8 +54,8 @@ h1 {
   max-height: 20em;
 }
 
-/*Style the Nav Bar by selecting the u1, li, and li a elements*/
-ul {
+/* nav bar */
+ul.nav-bar {
   list-style-type: none;
   background-color: #E9DFEA;
   padding: 1em;
@@ -74,10 +74,22 @@ li a {
   font-size: 1.3em;
 }
 
-/*not working*/
-#contactLinks {
+/* contact info */
+ul.contact-links {
   font-size: 1.3em;
   font-color: white;
+}
+
+li {
+  display: inline;
+  border-right: 2px solid white;
+}
+
+li b {
+  text-decoration: none;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.3em;
 }
 
 /*header flexbox*/ 
@@ -90,7 +102,7 @@ li a {
 /* Bottom right text "cathy zhao"*/
 .textBlock {
   position: absolute;
-  bottom: 100px;
+  bottom: 30px;
   right: 20px;
   color: white;
   display: inline;
