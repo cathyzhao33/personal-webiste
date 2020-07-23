@@ -1,9 +1,19 @@
-body {
+body.index {
   /*#E9DFEA*/
   /*#F1DDF1;*/
   /*#F2C6B0 muted orange*/
   text-align: center;
+  background-image: linear-gradient(#f4f5f0, #f4f5f0, #f4f5f0, #c16e4a);
+}
+
+body.portfolio {
+  text-align: center;
   background-image: linear-gradient(#f4f5f0, #f4f5f0, #c16e4a);
+}
+
+body.about {
+  text-align: center;
+  background-image: linear-gradient(#f4f5f0, #f4f5f0, #f4f5f0, #c16e4a);
 }
 
 .homeDescription {
@@ -126,12 +136,12 @@ li b {
 
 .nordic {
   padding-top: 2em;
-  padding-bottom: 10em;
+  padding-bottom: 20em;
 }
 
 .photography {
   padding-top: 2em;
-  padding-bottom: 10em;
+  padding-bottom: 20em;
   flex-direction: row;
 }
 
