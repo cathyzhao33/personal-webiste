@@ -3,17 +3,13 @@ body {
   /*#F1DDF1;*/
   /*#F2C6B0 muted orange*/
   text-align: center;
-  background-image: linear-gradient(#c16e4a, #f4f5f0, #c16e4a);
+  background-image: linear-gradient(#f4f5f0, #f4f5f0, #c16e4a);
 }
-/*
-.body {
-  background-image: linear-gradient(#f4f5f0, #c16e4a);
-}*/
 
 .homeDescription {
-  padding-top: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-top: 2em;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-bottom: 3em;
 }
 
@@ -23,14 +19,14 @@ body {
 }
 
 /* styling rules for text and images*/
-p {
+p1 {
   font-size: 1.2em;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2em;
   font-weight: 100;
   color: black;
   padding-top: 1em;
@@ -39,7 +35,7 @@ h1 {
 
 .about-description {
   padding-top: 1em;
-  padding-bottom: 10em;
+  padding-bottom: 15em;
 }
 
 /* main image*/
@@ -130,12 +126,12 @@ li b {
 
 .nordic {
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 10em;
 }
 
 .photography {
   padding-top: 2em;
-  padding-bottom: 1em;
+  padding-bottom: 10em;
   flex-direction: row;
 }
 
