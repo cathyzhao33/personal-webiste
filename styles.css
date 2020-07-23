@@ -1,5 +1,7 @@
 body {
-  background-color: #C9D3E9;
+  background-color: #F2C6B0;
+  /*#E9DFEA*/
+  /*color: #F1DDF1;*/
   text-align: center;
 }
 
@@ -25,7 +27,6 @@ p {
 h1 {
   font-size: 2.2em;
   font-weight: 100;
-  /*color: #F1DDF1;*/
   color: black;
   padding-top: 1em;
   padding-bottom: 0em;
@@ -50,7 +51,7 @@ h1 {
 /* nav bar */
 ul.nav-bar {
   list-style-type: none;
-  background-color: #E9DFEA;
+  background-color: #C9D3E9;
   padding: 1em;
   overflow: hidden;
 }
