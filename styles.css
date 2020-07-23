@@ -8,6 +8,10 @@ body {
   background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);
   position: relative;
   text-align: center;
+}
+
+.navBar {
+  padding-top: 0;
 }*/
 
 .homeDescription {
@@ -39,11 +43,10 @@ h1 {
   padding-bottom: 1em;
 }
 
-/* ------Styling the round image on the home page ------ */
+/* main image*/
 .mainImage {
   width: 100%;
   height: auto;
-  clip: rect(0px,600px,200px,0px);
 }
 
 /* ------Styling the portfolio images ------ */
@@ -77,16 +80,17 @@ li a {
   font-color: white;
 }
 
-/*TODO: add another flexbox*/ 
+/*header flexbox*/ 
 .headerContainer {
   position: relative;
   text-align: center;
+  padding-bottom: 0px;
 }
 
-/* Bottom right text */
+/* Bottom right text "cathy zhao"*/
 .textBlock {
   position: absolute;
-  bottom: 10px;
+  bottom: 100px;
   right: 20px;
   color: white;
   display: inline;
