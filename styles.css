@@ -92,6 +92,15 @@ li a {
   display: inline;
 }
 
+#text-cathy {
+  padding-bottom: 0px;
+}
+
+#text-zhao {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+
 .portContainer {
   display: flex;
   flex-direction: row;
