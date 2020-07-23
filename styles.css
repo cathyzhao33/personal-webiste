@@ -74,11 +74,12 @@ li a {
   font-size: 1.3em;
 }
 
-li b {
+#contactLinks {
   font-size: 1.3em;
+  font-color: white;
 }
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;*/ 
+/*TODO: add another flexbox*/ 
 .container {
   display: flex;
   flex-direction: row;
