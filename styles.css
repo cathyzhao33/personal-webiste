@@ -80,19 +80,16 @@ li a {
 /*TODO: add another flexbox*/ 
 .headerContainer {
   position: relative;
-  
-  clip: rect(0px,600px,200px,0px);
-  
+  text-align: center;
 }
 
 /* Bottom right text */
 .textBlock {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   right: 20px;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  display: inline;
 }
 
 .portContainer {
