@@ -1,8 +1,11 @@
 body {
-  background-color: #F2C6B0;
   /*#E9DFEA*/
-  /*color: #F1DDF1;*/
+  /*#F1DDF1;*/
   text-align: center;
+}
+
+.body {
+  background-image: linear-gradient(#f4f5f0, #F2C6B0);
 }
 
 .homeDescription {
