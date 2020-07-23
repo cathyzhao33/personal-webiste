@@ -34,14 +34,16 @@ h1 {
   font-size: 2.2em;
   font-weight: 100;
   /*color: #F1DDF1;*/
-  color: white;
+  color: black;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
 /* ------Styling the round image on the home page ------ */
-#mainImage {
-  
+.mainImage {
+  width: 100%;
+  height: auto;
+  clip: rect(0px,600px,200px,0px);
 }
 
 /* ------Styling the portfolio images ------ */
@@ -69,6 +71,7 @@ li a {
   font-size: 1.3em;
 }
 
+/*not working*/
 #contactLinks {
   font-size: 1.3em;
   font-color: white;
@@ -77,6 +80,7 @@ li a {
 /*TODO: add another flexbox*/ 
 .headerContainer {
   position: relative;
+  
   clip: rect(0px,600px,200px,0px);
   
 }
