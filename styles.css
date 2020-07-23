@@ -3,16 +3,12 @@ body {
   text-align: center;
 }
 
-h1 {
-  color: #F1DDF1;
-  color: white;
-}
-
+/*
 .header {
-  /*background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);*/
+  background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);
   position: relative;
   text-align: center;
-}
+}*/
 
 .homeDescription {
   padding-top: 1em;
@@ -37,6 +33,7 @@ p {
 h1 {
   font-size: 2.2em;
   font-weight: 100;
+  /*color: #F1DDF1;*/
   color: white;
   padding-top: 1em;
   padding-bottom: 1em;
@@ -80,7 +77,22 @@ li a {
 }
 
 /*TODO: add another flexbox*/ 
-.container {
+.headerContainer {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.portContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -97,3 +109,4 @@ li a {
   padding-bottom: 1em;
   flex-direction: row;
 }
+
