@@ -43,6 +43,10 @@ h1 {
   padding-bottom: 1em;
 }
 
+.about-description {
+  padding: 1em;
+}
+
 /* main image*/
 .mainImage {
   width: 100%;
@@ -75,9 +79,15 @@ li a {
 }
 
 /* contact info */
+.contact-header {
+  padding-bottom: 0em;
+}
+
 ul.contact-links {
   font-size: 1.3em;
   font-color: white;
+  padding-bottom: 1em;
+  padding-top: 0em;
 }
 
 li.contact-links {
@@ -87,8 +97,8 @@ li.contact-links {
 li b {
   text-decoration: none;
   text-align: center;
-  padding: 1em;
-  font-size: 1.3em;
+  padding-bottom: 0px;
+  font-size: 1em;
 }
 
 /*header flexbox*/ 
