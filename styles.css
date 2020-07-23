@@ -3,17 +3,6 @@ body {
   text-align: center;
 }
 
-/*
-.header {
-  background-image: url(https://cdn.glitch.com/92861c0a-015a-4ed9-9ce2-fc20ae3defd3%2Fhenry-be-IicyiaPYGGI-unsplash.jpg?v=1595438110844);
-  position: relative;
-  text-align: center;
-}
-
-.navBar {
-  padding-top: 0;
-}*/
-
 .homeDescription {
   padding-top: 1em;
   padding-left: 2em;
@@ -29,7 +18,6 @@ body {
 /* styling rules for text and images*/
 p {
   font-size: 1.2em;
-  color: #003046;
   padding-top: 1em;
   padding-bottom: 1em;
 }
@@ -40,11 +28,12 @@ h1 {
   /*color: #F1DDF1;*/
   color: black;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 0em;
 }
 
 .about-description {
-  padding: 1em;
+  padding-top: 1em;
+  padding-bottom: 10em;
 }
 
 /* main image*/
@@ -86,8 +75,8 @@ li a {
 ul.contact-links {
   font-size: 1.3em;
   font-color: white;
-  padding-bottom: 1em;
-  padding-top: 0em;
+  padding-bottom: 5em;
+  padding-top: 1em;
 }
 
 li.contact-links {
