@@ -1,6 +1,7 @@
 body.index {
   /*#E9DFEA*/
   /*#F1DDF1;*/
+  /*#C9D3E9*/ 
   /*#F2C6B0 muted orange*/
   text-align: center;
   background-image: linear-gradient(#f4f5f0, #f4f5f0, #f4f5f0, #c16e4a);
@@ -62,7 +63,7 @@ h1 {
 /* nav bar */
 ul.nav-bar {
   list-style-type: none;
-  background-color: #C9D3E9;
+  background-color: #dfcbbd;
   padding: 1em;
   overflow: hidden;
 }
