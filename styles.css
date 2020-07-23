@@ -1,12 +1,14 @@
 body {
   /*#E9DFEA*/
   /*#F1DDF1;*/
+  /*#F2C6B0 muted orange*/
   text-align: center;
+  background-image: linear-gradient(#c16e4a, #f4f5f0, #c16e4a);
 }
-
+/*
 .body {
-  background-image: linear-gradient(#f4f5f0, #F2C6B0);
-}
+  background-image: linear-gradient(#f4f5f0, #c16e4a);
+}*/
 
 .homeDescription {
   padding-top: 1em;
