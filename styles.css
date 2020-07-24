@@ -75,7 +75,6 @@ li.nav-bar {
 
 li a {
   text-decoration: none;
-  text-align: center;
   padding: 1em;
   font-size: 1.3em;
 }
@@ -86,23 +85,10 @@ li a {
 }
 
 ul.contact-links {
-  font-size: 1.3em;
-  font-color: white;
+  font-size: 1em;
   padding-bottom: 5em;
   padding-top: 1em;
 }
-
-li.contact-links {
-  border-right: 2px solid white;
-  text-decoration: none;
-}
-/*
-li b {
-  
-  text-align: center;
-  padding-bottom: 0px;
-  font-size: 1em;
-}*/
 
 /*header flexbox*/ 
 .headerContainer {
