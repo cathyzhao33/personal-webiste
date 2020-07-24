@@ -94,14 +94,15 @@ ul.contact-links {
 
 li.contact-links {
   border-right: 2px solid white;
-}
-
-li b {
   text-decoration: none;
+}
+/*
+li b {
+  
   text-align: center;
   padding-bottom: 0px;
   font-size: 1em;
-}
+}*/
 
 /*header flexbox*/ 
 .headerContainer {
@@ -148,4 +149,8 @@ li b {
 
 a:visited {
   color: black;
+}
+
+a:hover {
+  color: white;
 }
